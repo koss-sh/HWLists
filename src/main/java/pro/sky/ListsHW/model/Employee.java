@@ -1,4 +1,4 @@
-package pro.sky.ListsHW;
+package pro.sky.ListsHW.model;
 
 import java.util.Objects;
 
@@ -32,6 +32,6 @@ public class Employee {
     }
     @Override
     public String toString() {
-        return String.format("Имя: %s, Фамилия: %s", firstName, lastName);
+        return String.format("Имя: %s %s", firstName, lastName);
     }
 }
